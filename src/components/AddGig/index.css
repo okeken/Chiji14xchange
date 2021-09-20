@@ -1,0 +1,35 @@
+.btn-gig {
+    font-size: 0.7rem;
+    padding:0.5rem;
+    border: none;
+    color:#fff;  
+    background: #2F417E 0% 0% no-repeat padding-box;
+border-radius: 10px;
+}
+
+.plus {
+    
+    margin-left: 1.1rem;
+    margin-right: 0.3rem;
+    font-weight: 700;
+}
+
+.gig-text {
+    color: #2C263D;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gigs-section {
+    max-width: 60rem;
+    margin: auto;
+  
+}
+
+.gig-btn-positioning {
+    display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+
+

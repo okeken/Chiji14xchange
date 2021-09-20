@@ -1,0 +1,71 @@
+
+
+.add-new-gig-container, .gig-intro {
+    font-size: 0.6rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.gig-intro {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+::placeholder {
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+
+
+.gig-add-details-control  {
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    opacity: 1; 
+}
+
+.gig-add-details-control  ul li{
+    margin-bottom: 0.3rem;
+    list-style-type: circle;
+}
+
+.gig-add-details-control  ul li::marker {
+    color: transparent;
+  }
+
+.gig-add-details-control  ul li.active::marker {
+    color: #E18700;
+    font-weight: 700;
+   
+  }
+.gig-add-details-control  ul li.active{
+    color: #FBB30B;
+  }
+
+.gig-details {
+    padding:1.3rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #ECECEC;
+border-radius: 10px;
+opacity: 1;
+}
+
+
+.btn-gig {
+    font-size: 0.7rem;
+    padding:0.5rem;
+    border: none;
+    color:#fff;  
+    background: #2F417E 0% 0% no-repeat padding-box;
+border-radius: 10px;
+}
+
+.back-btn {
+    border:none;
+    background: transparent;
+}
+
+.form-row {
+    margin-bottom: 3rem;
+}

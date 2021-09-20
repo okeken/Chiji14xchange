@@ -1,0 +1,28 @@
+.sidebar-section {
+flex: 1;
+height: 100vh;
+background: #FEFEFF;
+border: 1px solid #ECECEC;
+}
+
+.sidebarMenu {
+    padding:1rem;
+}
+.company-logo {
+    padding:1rem;
+    width: 30%;
+
+}
+
+.dashboard-list {
+    opacity: 0.5;
+    list-style: none;
+    font-size: 0.6rem;
+    font-weight:bold;
+}
+
+.dashboard-icon {
+    margin-right: 0.4rem;
+    color: #514C5D;
+    width: 7%;
+}

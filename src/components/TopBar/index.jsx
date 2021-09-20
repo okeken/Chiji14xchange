@@ -9,7 +9,7 @@ import SearchIcon from '../../assets/svgs/search-icon.svg'
 function TopBar() {
 
     const _searchInput = <div className='search-section'>
-        <img src={SearchIcon} className='search-icon' />
+        <img src={SearchIcon} alt='search info' className='search-icon' />
         <input type="text" placeholder='search' className='top-bar-search' />
 
     </div>
@@ -22,7 +22,7 @@ function TopBar() {
                    <img src={Notification} alt ='notification'  className='topbar-icon'/>
                    </li>
                    <li className='topbar-list'>
-                   <img src={Email} alt ='email' alt ='email'  className='topbar-icon'/>
+                   <img src={Email} alt ='email'  className='topbar-icon'/>
                    </li>
                    <li className='topbar-list'>
                    <img src={Settings} alt ='settings'  className='topbar-icon'/>

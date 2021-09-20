@@ -14,10 +14,12 @@ function GigTable() {
     const dispatch = useDispatch()
     const data = useSelector(state => state.users)
 
+    const memoizedFunction = React.useCallback(()=> { dispatch(getUserAsync())},[dispatch])
+
    useEffect(() => {
-   dispatch(getUserAsync())
+  memoizedFunction()
      
-   }, [])
+   }, [memoizedFunction])
     return (
         <UserTemplate 
         loading={data?.status  ==='pending'}

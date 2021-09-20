@@ -56,14 +56,17 @@
     margin: auto;
   }
   .gig-selection-btn-div {
-    text-align: center;
-    margin: auto;
-    max-width: 10rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
    }
+
+ 
   .custom-gig-btn {
-    max-width: 10rem; 
-    margin:0.3rem;
-    
+    min-width: 8rem; 
+    margin-top: 1rem;
   }
 
    .btn-list-div {

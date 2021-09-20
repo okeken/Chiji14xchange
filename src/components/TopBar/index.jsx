@@ -22,7 +22,7 @@ function TopBar() {
                    <img src={Notification} alt ='notification'  className='topbar-icon'/>
                    </li>
                    <li className='topbar-list'>
-                   <img src={Email} alt ='email'  className='topbar-icon'/>
+                   <img src={Email} alt ='email' alt ='email'  className='topbar-icon'/>
                    </li>
                    <li className='topbar-list'>
                    <img src={Settings} alt ='settings'  className='topbar-icon'/>
